@@ -2,6 +2,19 @@
 
 This file provides guidance to AI coding agents (Claude Code, Cursor, Copilot, etc.) when working with code in this repository.
 
+## Vendored Upstream Content
+
+This repository is an Accelerate Data-maintained fork of `vercel-labs/agent-skills`.
+The skill content under `skills/` is vendored upstream content.
+
+AI agents may edit wrapper-owned files such as `.claude-plugin/`, `.codex-plugin/`,
+`.github/workflows/`, documentation, and validation scripts as normal.
+
+Before editing files under `skills/`, AI agents must warn the user that the file is
+upstream-owned and explain that the change may diverge from future upstream syncs.
+Proceed only when the user explicitly confirms the local divergence or when the task
+is specifically to resolve an upstream sync conflict.
+
 ## Repository Overview
 
 A collection of skills for Claude.ai and Claude Code for working with Vercel deployments. Skills are packaged instructions and scripts that extend Claude's capabilities.
