@@ -1,0 +1,10 @@
+{
+  "name": "vercel-agent-skills",
+  "version": "0.1.0",
+  "description": "Vendored Vercel agent skills packaged for Accelerate Data Claude marketplace installation.",
+  "author": {
+    "name": "Accelerate Data",
+    "url": "https://github.com/accelerate-data"
+  },
+  "repository": "https://github.com/accelerate-data/vercel-agent-skills"
+}
