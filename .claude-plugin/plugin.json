@@ -1,6 +1,6 @@
 {
   "name": "vercel-agent-skills",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Vendored Vercel agent skills packaged for Accelerate Data Claude marketplace installation.",
   "author": {
     "name": "Accelerate Data",
